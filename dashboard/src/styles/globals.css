@@ -3,21 +3,28 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ffffff; /* white background */
+  --foreground: #171717; /* dark text */
+  --primary-blue: #4f46e5; /* primary blue for buttons and active elements */
+  --text-light-gray: #5a5a5a; /* light gray text */
+  --positive-green: #22c55e; /* green for positive values */
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
+  background-color: var(--background);
   color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  transition: background-color 0.3s ease;
 }
 
 @layer utilities {
