@@ -1,4 +1,4 @@
-// components/dashboard/ChartNavigation.js
+// components/ChartNavigation.js
 const tabs = [
   { name: "Summary", href: "#" },
   { name: "Chart", href: "#" },

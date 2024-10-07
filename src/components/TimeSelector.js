@@ -1,4 +1,4 @@
-// components/dashboard/TimeframeSelector.js
+// components/TimeframeSelector.js
 const timeframes = [
   { value: "1d", label: "1d" },
   { value: "3d", label: "3d" },

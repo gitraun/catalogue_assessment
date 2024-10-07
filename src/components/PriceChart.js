@@ -1,4 +1,4 @@
-// components/dashboard/PriceChart.js
+// components/PriceChart.js
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 
 export default function PriceChart({ timeframe }) {

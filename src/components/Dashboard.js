@@ -4,7 +4,7 @@ import PriceDisplay from "./PriceDisplay";
 import ChartNavigation from "./ChartNav";
 import PriceChart from "./PriceChart";
 import TimeframeSelector from "./TimeSelector";
-import { ArrowsUpFromLineIcon, PlusIcon } from "lucide-react";
+import { Maximize2, CirclePlus } from "lucide-react";
 export default function Dashboard() {
   const [timeframe, setTimeframe] = useState("1w");
 
@@ -28,13 +28,13 @@ export default function Dashboard() {
           <div className="flex gap-4">
             <button className="text-gray-600 hover:text-gray-800">
               <span className="flex items-center gap-2">
-                <ArrowsUpFromLineIcon className="h-5 w-5" />
+                <Maximize2 className="h-5 w-5" />
                 Fullscreen
               </span>
             </button>
             <button className="text-gray-600 hover:text-gray-800">
               <span className="flex items-center gap-2">
-                <PlusIcon className="h-5 w-5" />
+                <CirclePlus className="h-5 w-5" />
                 Compare
               </span>
             </button>
